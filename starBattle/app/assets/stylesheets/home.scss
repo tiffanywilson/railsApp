@@ -5,17 +5,23 @@
   .modal-content{
     border-color: dimgrey;
     background-color: black;
-  }
-  .modal-footer{
     button{
       border-color: #fff61c;
       background-color: dimgrey;
+      color: #fff61c;
+      float: right;
+      margin-right: 10px;
+    }
+  }
+  .form-horizontal{
+    label{
       color: #fff61c;
     }
   }
 }
 
 #main-navbar{
+  border-radius: 0;
   background-color: black;
   .navbar-brand{
     background-color: black;
