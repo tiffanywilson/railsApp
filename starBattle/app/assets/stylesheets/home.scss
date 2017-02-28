@@ -1,0 +1,28 @@
+#feedback-modal{
+  .modal-title{
+    color: #fff61c;
+  }
+  .modal-content{
+    border-color: dimgrey;
+    background-color: black;
+  }
+  .modal-footer{
+    button{
+      border-color: #fff61c;
+      background-color: dimgrey;
+      color: #fff61c;
+    }
+  }
+}
+
+#main-navbar{
+  background-color: black;
+  .navbar-brand{
+    background-color: black;
+    color:#fff61c;
+  }
+  a {
+    background-color: dimgrey;
+    color: #fff61c;
+  }
+}
