@@ -1,9 +1,35 @@
+<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
 <nav class="navbar navbar-default" style=background-color:dimgray;>
   <div class="container-fluid">
-    <p class="navbar-text navbar-left" style=color:#fff61c>Star Battle</p>
-    <a class="navbar-brand" style=color:#fff61c href="#">Home</a>
-    <button type="button" class="btn btn-default navbar-btn">How It Works</button>
-    <button type="button" class="btn btn-default navbar-btn">Battle Now</button>
-  </div>
+    <a class="navbar-brand" style=color:#fff61c>Star Battle</a>
+    <a type = "button" class="btn btn-default navbar-btn" style=background:black;color:#fff61c href="/#">Home</a>
+    <button type="button" class="btn btn-default navbar-btn" style=background:black;color:#fff61c>How It Works</button>
+    <button type="button" class="btn btn-default navbar-btn" style=background:black;color:#fff61c>Battle Now</button>
+    <a type="button" class="btn btn-default navbar-btn" style=background:black;color:#fff61c href="/contactus">Contact Us</a>
+    <a type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#feedback-modal"  href="#feedback-modal" style=background:black;color:#fff61c>Feedback</a>
   </div>
 </nav>
+
+<div class="modal fade" id="feedback-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h5 class="modal-title">Feedback</h5>
+      </div>
+      <div class="modal-body">
+        <body>
+          <p>This modal will eventually be used to report feedback on my site.</p>
+        </body>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
