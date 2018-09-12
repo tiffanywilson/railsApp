@@ -1,0 +1,2 @@
+module BattleNowHelper
+end
