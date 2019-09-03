@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @feedback = Feedback.all
   end
 
   def about
